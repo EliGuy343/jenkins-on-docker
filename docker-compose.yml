@@ -1,7 +1,6 @@
-verison: '3.8'
 services:
   Jenkins:
-    image: Jenkins/Jenkins:lts
+    image: jenkins/jenkins:lts
     privileged: true
     user: root
     restart: always
